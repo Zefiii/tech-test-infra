@@ -57,7 +57,7 @@ And we let it as:
 We are ready to import the image with:
 
 ```
-sudo virsh create assets/vm.xml
+sudo virsh define assets/vm.xml
 ```
 
 We should be able to see it running with the command:
